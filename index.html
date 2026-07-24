@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>K-Tech</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<button onclick="greetUser();">Hello</button>
+<button id="messageBtn">Show Message</button>
+
+<body>
+    <header>
+    <div class="Navbar">
+        <h3><img class="logo-img" src="images/K-tech logoo.jpg" alt="K-Tech Logo"></h3>
+    <nav>
+        <a href="sample.html">Home</a>
+        <a href="about-us.html">About Us</a>
+        <a href="services.html">Services</a>
+        <a href="shop.html">Shop</a>
+        <a href="training.html">Training</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    </div>
+</header>
+    <main>
+        <h1>Welcome to K-Tech</h1>
+        <p>Genuine Gadgets, Expert Services</p>
+        <p>Laptops, phones, CCTVs, repairs and training — all in one place</p>
+    </main>
+        <section>
+            <h2>Shop by Categories</h2>
+            <div class="category-grid">
+            <div class="category-tile">Laptops</div>
+            <div class="category-tile">Phones</div>
+            <div class="category-tile">CCTV</div>
+            <div class="category-tile">Accessories</div>
+        </div>
+            </section>  
+            <section>
+                <h2>Our Services</h2>
+                    <div class="services-grid">
+                        <div class="service-card">
+                <h3>Repairs</h3>
+                        <p>Laptop, phone and computer repairs</p>
+                    </div>
+    <div class="service-card">
+        <h3>Computer services</h3>
+        <p>Setup, IT support, CCTV installation</p>
+    </div>
+    <div class="service-card">
+      <h3>Training</h3>
+      <p>Computer skills courses for all levels</p>
+    </div>
+  </section>
+  <section>
+            <h2>Featured Products</h2>
+            <div class="Products-grid">
+                    <div class="product-card">
+                        <div class="product-thumb"> 
+       <img class="main-img" src="images/Laptop.jpg" alt="Laptop">
+       <div class="thumb-row">
+        <img src="images/Laptop2.jpg" class="thumb active" onclick="swapImage(this)">
+        <img src="images/Laptop3.jpg" class="thumb" onclick="swapImage(this)">
+       </div>
+                        </div>
+      <div class="product-info">
+        <div class="product-name">Laptop model</div>
+        <div class="product-price">₦450,000</div>
+        <button class="btn-add">Add to cart</button>
+      </div>
+    </div>
+    <div class="product-card">
+   <div class="product-thumb">
+        <img src="images/Phone.jpg" alt="Phone">
+      </div>
+      <div class="product-info">
+        <div class="product-name">Smartphone</div>
+        <div class="product-price">₦280,000</div>
+        <button class="btn-add">Add to cart</button>
+      </div>
+    </div>
+    <div class="product-card">
+     <div class="product-thumb">
+      <img src="images/CCTV.jpg" alt="Cctv kit">
+     </div>
+      <div class="product-info">
+        <div class="product-name">CCTV kit</div>
+        <div class="product-price">₦120,000</div>
+        <button class="btn-add">Add to cart</button>
+      </div>
+    </div>
+    <div class="product-card">
+      <div class="product-thumb">
+        <img src="images/Accessories.jpg" alt="Accessory">
+      </div>
+      <div class="product-info">
+        <div class="product-name">Accessory</div>
+        <div class="product-price">₦15,000</div>
+        <button class="btn-add">Add to cart</button>
+      </div>
+    </div>
+  </div>
+        </section>  
+        <section class="about-us">
+            <h2>Why K-Tech?</h2>
+            <div class="badge-grid">
+            <div class="badge-item">
+        <div class="badge-text">Genuine products</div>
+    </div>
+    <div class="badge-item">
+        <div class="badge-text">Warranty Included</div>
+    </div>
+    <div class="badge-item">
+        <div class="badge-text">Expert Technicians</div>
+    </div>
+    <div class="badge-item">
+        <div class="badge-text">Fast Turnaround</div>
+    </div>
+    </div>  
+            <p>Get notified about on new arrivals and promo deals!</p>
+            <button onclick="alert('Signing up...')">SignUp</button>
+  </section>
+    <footer>
+  <div class="footer-top">
+    <div class="footer-brand">
+       <img class="logo-img footer-logo" src="images/K-tech logoo.jpg" alt="K-Tech logo">
+      </div>
+      <p>Genuine gadgets. Expert service.</p>
+    </div>
+
+    <div class="footer-links">
+      <h4>Shop</h4>
+      <a href="#">Laptops</a>
+      <a href="#">Phones</a>
+      <a href="#">CCTV</a>
+      <a href="#">Accessories</a>
+    </div>
+
+    <div class="footer-links">
+      <h4>Services</h4>
+      <a href="#">Repairs</a>
+      <a href="#">Computer services</a>
+      <a href="#">Training</a>
+    </div>
+
+    <div class="footer-links">
+      <h4>Contact</h4>
+      <a href="tel:+2348163387101">Phone</a>
+      <a href="mailto:Mrkush@ktech.com">Email</a>
+      <a href="#">Abuja</a>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <span>© 2026 K-Tech. All rights reserved.</span>
+    <div class="footer-social">
+      <a href="#">Instagram</a>
+      <a href="#">Facebook</a>
+    </div>
+  </div>
+</footer>
+    <div class="container">Box 1</div>
+    <div class="container">Box 2</div>
+    <div class="container">Box 3</div>
+   
+    <button id="toggleBtn">Show/ Hide FAQ</button>
+      <div id="infoBox">
+        <h2>Do we do delivery?</h2>
+        <p>
+          Yes, we do offer delivery services. Kindly fill out the form below so we can confirm delivery availability and provide the delivery fee.</p>
+      </div>
+    <form id="ContactForm" action="">
+      <input type="text" id= "nameInput" placeholder="Enter your Name"> <br>
+      <button type="submit">Submit</button>
+    </form>
+    <p id="message"></p>
+    
+    <script src="app.js"></script>
+    
+    
+</body>
+</html>
